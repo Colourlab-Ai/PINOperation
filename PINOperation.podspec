@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.frameworks    = 'Foundation'
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.8'
+  s.osx.deployment_target = '11.0'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
   pch_PIN = <<-EOS
